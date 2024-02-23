@@ -5,15 +5,15 @@ public class Pares extends Thread
 	public void run(){
 		int n;
 		int contador=0;
-		for (n=1;n&lt;=10;n++){
+		for (n=1;n<=10;n++){
 			if (n % 2 == 0) {
-				System.out.print(&quot; &quot;+n+&quot;\n&quot;);
+				System.out.print(""+n+"\n");
 
 				contador=contador+n;
 			}
 		}
-		System.out.print(&quot;La suma de los pares es : &quot;+contador + &quot;\n&quot;);
-		System.out.print(&quot; ******************** \n&quot;);
+		System.out.print(";La suma de los pares es : "+contador + "\n");
+		System.out.print("; ******************** \n");
 	
 	}
 }

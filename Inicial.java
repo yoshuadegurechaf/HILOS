@@ -7,7 +7,7 @@ public class Inicial
 		eje1.start();
 		Impares eje2 = new Impares();
 		eje2.start();
-		aud eje3= new aud();
+		Aud eje3= new Aud();
 		eje3.start();
 	}
 }

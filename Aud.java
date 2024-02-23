@@ -13,7 +13,7 @@ public class Aud extends Thread {
 	public void run ()
 	{
 
-		String sonido=&quot;C:/musica/V.wav&quot;;
+		String sonido="C:\audio\A.wav";
 		InputStream in = null;
 		try {
 			in = new FileInputStream(sonido);
